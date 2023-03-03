@@ -24,7 +24,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="|| Employee ||"
+        android:text="|| Employee Form ||"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,18 +42,18 @@
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.177" />
 
     <RadioGroup
         android:id="@+id/rdgrpGENDER"
-        android:layout_width="161dp"
+        android:layout_width="129dp"
         android:layout_height="153dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintHorizontal_bias="0.748"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -67,29 +67,29 @@
         <RadioButton
             android:id="@+id/MALE"
             android:layout_width="match_parent"
-            android:layout_height="38dp"
+            android:layout_height="wrap_content"
             android:text="Male" />
 
         <RadioButton
             android:id="@+id/FEMALE"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="wrap_content"
             android:text="Female" />
     </RadioGroup>
 
     <EditText
         android:id="@+id/editTextDate"
-        android:layout_width="276dp"
-        android:layout_height="42dp"
+        android:layout_width="272dp"
+        android:layout_height="49dp"
         android:ems="10"
         android:hint="Long Press To Enter Date"
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintVertical_bias="0.259" />
 
     <EditText
         android:id="@+id/editTextPhone"
@@ -100,21 +100,20 @@
         android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.343" />
 
     <RadioGroup
         android:id="@+id/rdgrpQUALIFICATION"
-        android:layout_width="158dp"
-        android:layout_height="158dp"
+        android:layout_width="131dp"
+        android:layout_height="153dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintHorizontal_bias="0.254"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView2"
@@ -125,19 +124,19 @@
 
         <RadioButton
             android:id="@+id/BCA"
-            android:layout_width="107dp"
+            android:layout_width="match_parent"
             android:layout_height="36dp"
             android:text="BCA" />
 
         <RadioButton
             android:id="@+id/BBA"
-            android:layout_width="106dp"
-            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
             android:text="BBA" />
 
         <RadioButton
             android:id="@+id/BCOM"
-            android:layout_width="106dp"
+            android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:text="BCOM" />
     </RadioGroup>
@@ -182,7 +181,7 @@
         android:id="@+id/checkBox"
         android:layout_width="294dp"
         android:layout_height="72dp"
-        android:text="I Accept The Terms And Condition Of Emplyee App."
+        android:text="I Accept The Terms And Condition Of Employee App."
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

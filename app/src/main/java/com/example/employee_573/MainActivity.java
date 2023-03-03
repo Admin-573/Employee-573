@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
 
         rdbtn1 = findViewById(R.id.BCA);
-        rdbtn1 = findViewById(R.id.BBA);
-        rdbtn1 = findViewById(R.id.BCOM);
+        rdbtn2 = findViewById(R.id.BBA);
+        rdbtn3 = findViewById(R.id.BCOM);
 
-        rdbtn1=findViewById(R.id.MALE);
-        rdbtn1=findViewById(R.id.FEMALE);
+        rdbtn4=findViewById(R.id.MALE);
+        rdbtn5=findViewById(R.id.FEMALE);
 
         spinner = findViewById(R.id.spinner1);
         edtname = findViewById(R.id.editTextTextPersonName);
@@ -150,10 +150,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             mytoast("Please Enter Valid Phone Number !");
             return false;
         }
-        else if (checkBox.isChecked()) {
+        else if (!checkBox.isChecked()) {
             Toast.makeText(MainActivity.this, "Accepted", Toast.LENGTH_SHORT).show();
-        } else {
+            return false;
+        }
+        else if(!checkBox.isChecked()){
             Toast.makeText(MainActivity.this, "Please Accept Terms & Conditions !", Toast.LENGTH_SHORT).show();
+            return false;
         }
         return true;
     }
