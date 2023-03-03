@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
-    TextView txt1,txt2,txt3,txt4,txt5,txt6;
+    TextView txt1,txt2,txt3,txt4,txt5,txt6,txt7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
